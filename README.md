@@ -5,6 +5,7 @@ Chatter is a real-time chat application built with Rust. It allows multiple clie
 ## Table of Contents
 
 - [Installation](#installation)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -35,8 +36,13 @@ cd chatter
 cargo build --release
 ```
 
-After running the server, clients can connect and start chatting by typing messages and pressing enter. Messages from other clients will be displayed in real-time.
+### Usage
+Open a new terminal and run this command to connect a client to the server:
 
+```bash
+telnet 127.0.0.1 7007
+```
+After running the server, client(s) can connect and start chatting by typing messages and pressing Enter. Messages from client(s) are displayed in real time.
 ## Contributing
 
 Contributions are welcome! Please follow these steps:
